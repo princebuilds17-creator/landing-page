@@ -1,0 +1,302 @@
+{
+  "projects": [
+    {
+      "id": "proj-1",
+      "title": "MotoCheck (Placeholder Contoh)",
+      "slug": "motocheck-placeholder",
+      "summary": "Platform diagnostik dan catatan servis kendaraan berbasis web untuk membantu pemula memahami arsitektur aplikasi CRUD modern.",
+      "description": "### Ringkasan Proyek\n**Catatan Penting:** Proyek ini merupakan data contoh/placeholder untuk demonstrasi struktur katalog PRINCE LAB. Detail spesifikasi, repositori, dan link resmi akan diverifikasi oleh pemilik brand sebelum peluncuran produksi.\n\n### Tujuan Belajar\n1. Memahami arsitektur Clean Architecture pada aplikasi web.\n2. Manajemen state, form validation, dan caching lokal.\n3. Desain antarmuka responsif dark mode yang nyaman bagi pengguna montir dan pemilik kendaraan.\n\n### Teknologi & Modul\n- Frontend: Next.js & Tailwind CSS\n- Data Persistence: PostgreSQL / Local Storage Fallback\n- Monitoring: System Health & Service History Ledger",
+      "image": "/images/teaser/1.png",
+      "imageAlt": "Tampilan mockup kartu preview proyek MotoCheck",
+      "category": "Web Development",
+      "externalUrl": "https://www.instagram.com/princee.lab/",
+      "status": "published",
+      "sortOrder": 1,
+      "seoTitle": "MotoCheck — Dokumentasi Proyek | PRINCE LAB",
+      "seoDescription": "Studi kasus arsitektur web diagnostik kendaraan oleh PRINCE LAB.",
+      "createdAt": "2026-10-20T08:00:00.000Z",
+      "updatedAt": "2026-10-28T10:00:00.000Z",
+      "publishedAt": "2026-10-20T08:00:00.000Z"
+    },
+    {
+      "id": "proj-2",
+      "title": "Portfolio Website Studio (Placeholder Contoh)",
+      "slug": "portfolio-website-placeholder",
+      "summary": "Desain sistem personal tech brand dan hub konten multi-publisher yang cepat, minimalis, dan aksesibel bagi pelajar IT.",
+      "description": "### Ringkasan Proyek\nDokumentasi pengembangan platform PRINCE LAB sebagai personal tech brand sekaligus digital project studio. Mengutamakan performa Core Web Vitals, kontras tinggi, dan aksesibilitas keyboard lengkap.\n\n### Sorotan Utama\n- Pemuatan statis secepat kilat dengan SSG & Server Components.\n- Navigasi keyboard penuh untuk modal dialog, form, dan pengurutan list.\n- Integrasi card tautan Instagram spesifik per publisher.",
+      "image": "/images/teaser/2.png",
+      "imageAlt": "Pratinjau antarmuka portfolio studio PRINCE LAB",
+      "category": "Design System",
+      "externalUrl": "https://www.instagram.com/princee.lab/",
+      "status": "published",
+      "sortOrder": 2,
+      "seoTitle": "Portfolio Studio — PRINCE LAB",
+      "seoDescription": "Desain sistem dan arsitektur web studio PRINCE LAB.",
+      "createdAt": "2026-10-22T09:00:00.000Z",
+      "updatedAt": "2026-10-28T10:00:00.000Z",
+      "publishedAt": "2026-10-22T09:00:00.000Z"
+    },
+    {
+      "id": "proj-3",
+      "title": "PHP Native Apps Collection (Placeholder Contoh)",
+      "slug": "php-native-apps-placeholder",
+      "summary": "Serangkaian modul pembelajaran konsep dasar logika backend, routing HTTP, dan query database tanpa framework.",
+      "description": "### Ringkasan Proyek\nModul edukasi untuk siswa IT yang baru memulai pemrograman backend. Membongkar konsep dasar HTTP request-response, sesi pengguna, dan sanitasi input database sebelum beralih ke framework modern.",
+      "image": "/images/teaser/3.png",
+      "imageAlt": "Diagram alur eksekusi PHP Native untuk pemula IT",
+      "category": "Backend Fundamentals",
+      "externalUrl": "https://www.instagram.com/princee.lab/",
+      "status": "published",
+      "sortOrder": 3,
+      "seoTitle": "PHP Native Fundamentals — PRINCE LAB",
+      "seoDescription": "Koleksi modul dasar backend untuk pemula IT.",
+      "createdAt": "2026-10-24T10:00:00.000Z",
+      "updatedAt": "2026-10-28T10:00:00.000Z",
+      "publishedAt": "2026-10-24T10:00:00.000Z"
+    },
+    {
+      "id": "proj-4",
+      "title": "Eksperimen AI & Agentic Workflow (Draft Contoh)",
+      "slug": "eksperimen-ai-draft",
+      "summary": "Riset internal integrasi LLM dan tools otomatisasi koding untuk akselerasi alur kerja pengembang pemula.",
+      "description": "Proyek ini masih berstatus draft internal dan tidak boleh muncul pada katalog publik.",
+      "image": "/images/teaser/1.png",
+      "imageAlt": "Konsep eksperimen AI lab internal",
+      "category": "AI Research",
+      "status": "draft",
+      "sortOrder": 4,
+      "createdAt": "2026-10-26T11:00:00.000Z",
+      "updatedAt": "2026-10-28T10:00:00.000Z",
+      "publishedAt": null
+    }
+  ],
+  "cards": [
+    {
+      "id": "card-1",
+      "title": "Teaser Peluncuran PRINCE LAB — Learn. Build. Share.",
+      "summary": "Pengumuman perdana hadirnya PRINCE LAB sebagai ruang eksplorasi karya digital dan wadah belajar teknologi untuk pemula.",
+      "publisherName": "@princee.lab",
+      "instagramUrl": "https://www.instagram.com/princee.lab/",
+      "projectId": "proj-2",
+      "thumbnail": "/images/teaser/1.png",
+      "thumbnailAlt": "Poster teaser peluncuran resmi PRINCE LAB",
+      "contentDate": "2026-10-25",
+      "category": "Announcement",
+      "status": "published",
+      "sortOrder": 1,
+      "isFeatured": true,
+      "createdAt": "2026-10-25T12:00:00.000Z",
+      "updatedAt": "2026-10-28T10:00:00.000Z",
+      "publishedAt": "2026-10-25T12:00:00.000Z"
+    },
+    {
+      "id": "card-2",
+      "title": "Bedah Arsitektur MotoCheck: Dari Ide ke Kode",
+      "summary": "Kupas tuntas diagram ERD, skema database, dan tantangan performa saat membangun antarmuka web responsif.",
+      "publisherName": "@princee.lab",
+      "instagramUrl": "https://www.instagram.com/princee.lab/",
+      "projectId": "proj-1",
+      "thumbnail": "/images/teaser/2.png",
+      "thumbnailAlt": "Infografis arsitektur teknis sistem MotoCheck",
+      "contentDate": "2026-10-26",
+      "category": "Architecture",
+      "status": "published",
+      "sortOrder": 2,
+      "isFeatured": true,
+      "createdAt": "2026-10-26T14:00:00.000Z",
+      "updatedAt": "2026-10-28T10:00:00.000Z",
+      "publishedAt": "2026-10-26T14:00:00.000Z"
+    },
+    {
+      "id": "card-3",
+      "title": "5 Tips Memulai Proyek IT Pertama Tanpa Overwhelmed",
+      "summary": "Panduan praktis memilih lingkup proyek yang realistis, fokus menyelesaikan MVP, dan mendokumentasikan prosesnya.",
+      "publisherName": "@prince.builds",
+      "instagramUrl": "https://instagram.com/prince.builds",
+      "projectId": null,
+      "thumbnail": "/images/teaser/3.png",
+      "thumbnailAlt": "Tips praktis untuk pemula membangun proyek perangkat lunak pertama",
+      "contentDate": "2026-10-27",
+      "category": "Career & Learning",
+      "status": "published",
+      "sortOrder": 3,
+      "isFeatured": true,
+      "createdAt": "2026-10-27T09:00:00.000Z",
+      "updatedAt": "2026-10-28T10:00:00.000Z",
+      "publishedAt": "2026-10-27T09:00:00.000Z"
+    },
+    {
+      "id": "card-4",
+      "title": "Riset Prompting & Agentic Workflow untuk Mahasiswa IT (Draft)",
+      "summary": "Catatan eksperimen awal memanfaatkan AI tooling untuk mempercepat debugging dan unit testing.",
+      "publisherName": "@princee.lab",
+      "instagramUrl": "https://www.instagram.com/princee.lab/",
+      "projectId": "proj-4",
+      "thumbnail": "/images/teaser/1.png",
+      "thumbnailAlt": "Draft catatan riset AI PRINCE LAB",
+      "contentDate": "2026-10-28",
+      "category": "AI Research",
+      "status": "draft",
+      "sortOrder": 4,
+      "isFeatured": false,
+      "createdAt": "2026-10-28T08:00:00.000Z",
+      "updatedAt": "2026-10-28T10:00:00.000Z",
+      "publishedAt": null
+    }
+  ],
+  "analytics": [
+    {
+      "eventType": "instagram_outbound_click",
+      "targetId": "card-1",
+      "targetUrl": "https://www.instagram.com/princee.lab/",
+      "path": "/",
+      "id": "ev-1793174469255-08f",
+      "timestamp": "2026-10-28T08:01:09.255Z"
+    },
+    {
+      "eventType": "page_view",
+      "path": "/",
+      "id": "ev-1793173116437-7z5",
+      "timestamp": "2026-10-28T07:38:36.437Z"
+    },
+    {
+      "eventType": "page_view",
+      "path": "/",
+      "id": "ev-1793173116394-v21",
+      "timestamp": "2026-10-28T07:38:36.394Z"
+    },
+    {
+      "eventType": "instagram_outbound_click",
+      "targetId": "card-1",
+      "targetUrl": "https://www.instagram.com/princee.lab/",
+      "path": "/",
+      "id": "ev-1793172734166-kpv",
+      "timestamp": "2026-10-28T07:32:14.166Z"
+    },
+    {
+      "eventType": "instagram_outbound_click",
+      "targetId": "card-1",
+      "targetUrl": "https://www.instagram.com/princee.lab/",
+      "path": "/",
+      "id": "ev-1793172178918-lou",
+      "timestamp": "2026-10-28T07:22:58.918Z"
+    },
+    {
+      "eventType": "page_view",
+      "path": "/",
+      "id": "ev-1793172126479-xyf",
+      "timestamp": "2026-10-28T07:22:06.479Z"
+    },
+    {
+      "eventType": "page_view",
+      "path": "/",
+      "id": "ev-1793172126447-73k",
+      "timestamp": "2026-10-28T07:22:06.447Z"
+    },
+    {
+      "eventType": "page_view",
+      "path": "/projects",
+      "id": "ev-1793172105842-jax",
+      "timestamp": "2026-10-28T07:21:45.842Z"
+    },
+    {
+      "eventType": "page_view",
+      "path": "/projects",
+      "id": "ev-1793172105816-6pf",
+      "timestamp": "2026-10-28T07:21:45.816Z"
+    },
+    {
+      "eventType": "page_view",
+      "path": "/",
+      "id": "ev-1793171840989-unv",
+      "timestamp": "2026-10-28T07:17:20.989Z"
+    },
+    {
+      "eventType": "page_view",
+      "path": "/",
+      "id": "ev-1793171840963-wzv",
+      "timestamp": "2026-10-28T07:17:20.963Z"
+    },
+    {
+      "eventType": "page_view",
+      "path": "/projects",
+      "id": "ev-1793171839896-zq4",
+      "timestamp": "2026-10-28T07:17:19.896Z"
+    },
+    {
+      "eventType": "page_view",
+      "path": "/projects",
+      "id": "ev-1793171839872-atk",
+      "timestamp": "2026-10-28T07:17:19.872Z"
+    },
+    {
+      "eventType": "page_view",
+      "path": "/",
+      "id": "ev-1793171838015-nus",
+      "timestamp": "2026-10-28T07:17:18.015Z"
+    },
+    {
+      "eventType": "page_view",
+      "path": "/",
+      "id": "ev-1793171837987-urf",
+      "timestamp": "2026-10-28T07:17:17.987Z"
+    },
+    {
+      "eventType": "page_view",
+      "path": "/",
+      "id": "ev-1793171758478-2yp",
+      "timestamp": "2026-10-28T07:15:58.478Z"
+    },
+    {
+      "eventType": "page_view",
+      "path": "/",
+      "id": "ev-1793171758447-uaz",
+      "timestamp": "2026-10-28T07:15:58.447Z"
+    },
+    {
+      "eventType": "page_view",
+      "path": "/projects",
+      "id": "ev-1793171749304-07g",
+      "timestamp": "2026-10-28T07:15:49.304Z"
+    },
+    {
+      "eventType": "page_view",
+      "path": "/projects",
+      "id": "ev-1793171749251-7h4",
+      "timestamp": "2026-10-28T07:15:49.251Z"
+    },
+    {
+      "eventType": "page_view",
+      "path": "/",
+      "id": "ev-1793171729642-u68",
+      "timestamp": "2026-10-28T07:15:29.642Z"
+    },
+    {
+      "eventType": "page_view",
+      "path": "/",
+      "id": "ev-1793171729618-74x",
+      "timestamp": "2026-10-28T07:15:29.618Z"
+    },
+    {
+      "eventType": "page_view",
+      "path": "/projects",
+      "id": "ev-1793171726047-fn4",
+      "timestamp": "2026-10-28T07:15:26.047Z"
+    },
+    {
+      "eventType": "page_view",
+      "path": "/projects",
+      "id": "ev-1793171726010-txq",
+      "timestamp": "2026-10-28T07:15:26.010Z"
+    },
+    {
+      "eventType": "instagram_outbound_click",
+      "targetId": "card-1",
+      "targetUrl": "https://www.instagram.com/princee.lab/",
+      "path": "/",
+      "id": "ev-1793171610361-gw5",
+      "timestamp": "2026-10-28T07:13:30.361Z"
+    }
+  ],
+  "lastUpdated": "2026-10-28T08:03:16.323Z"
+}

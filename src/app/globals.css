@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-canvas: #101116;
+  --color-surface: #1B1C25;
+  --color-text-primary: #F5F5F7;
+  --color-text-secondary: #9DA3B4;
+  --color-accent-primary: #9B8AFF;
+  --color-accent-secondary: #72E6B1;
+}
+
+@layer base {
+  html {
+    color-scheme: dark;
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    background-color: #101116;
+    color: #F5F5F7;
+    font-family: var(--font-jakarta), system-ui, -apple-system, sans-serif;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* Accessibility Focus Rings (WCAG 2.2 AA) */
+  :focus-visible {
+    outline: 2px solid #9B8AFF !important;
+    outline-offset: 2px !important;
+  }
+
+  /* Respect prefers-reduced-motion */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    ::before,
+    ::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+/* Custom Scrollbar for dark tech aesthetic */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #101116;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #232533;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3B3E54;
+}
+
+/* Minimal subtle grid background */
+.bg-grid-pattern {
+  background-image: radial-gradient(rgba(155, 138, 255, 0.08) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
